@@ -12,4 +12,8 @@ body {
   background: url("./images/cat.png");
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
