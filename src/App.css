@@ -13,11 +13,14 @@ body {
   /* linear-gradient(rgba(0, 0, 0, 0.3, rgba(0, 0, 0, 0.3))) */ url("./images/cat.png");
   background-size: cover;
   background-position: center;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  /* justify-content: center; */
+  justify-content: flex-end;
+  align-items: center;
+  /* align-items: flex-start; */
   text-align: center;
+  padding-right: 10%;
 }
 
 .card {
@@ -28,4 +31,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  /* padding: 1%; */
+  box-shadow: 8px 8px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  height: 580px;
+  font-family: "Vollkorn", serif;
 }
