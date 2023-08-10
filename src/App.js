@@ -7,6 +7,10 @@ class App extends React.Component {
     advice: "",
   };
 
+  componentDidMount() {
+    console.log("Component mounted");
+  }
+
   render() {
     return <h1>Fortune cookie app</h1>;
   }
