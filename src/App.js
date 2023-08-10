@@ -18,7 +18,9 @@ class App extends React.Component {
       .get("https://api.adviceslip.com/advice")
       .then((response) => {
         const { advice } = response.data.slip;
-
+        console.log(
+          "--------------------------------------------------------------------------------------------------------------------"
+        );
         console.log(advice);
         this.setState({ advice });
       })
@@ -28,7 +30,7 @@ class App extends React.Component {
   };
 
   render() {
-    return <h1>Fortune cookie app</h1>;
+    return <h1>{this.state.advice}</h1>;
   }
 }
 
