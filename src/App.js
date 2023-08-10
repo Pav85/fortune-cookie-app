@@ -17,7 +17,10 @@ class App extends React.Component {
     axios
       .get("https://api.adviceslip.com/advice")
       .then((response) => {
-        console.log(response.data.slip.advice);
+        const { advice } = response.data.slip;
+
+        console.log(advice);
+        this.setState({ advice });
       })
       .catch((error) => {
         console.log(error);
