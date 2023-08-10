@@ -10,8 +10,10 @@ class App extends React.Component {
 
   componentDidMount() {
     console.log("Component mounted");
-    axios.get();
+    // axios.get();
   }
+
+  fetchFortune = () => {};
 
   render() {
     return <h1>Fortune cookie app</h1>;
