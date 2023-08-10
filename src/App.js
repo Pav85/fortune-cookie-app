@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 
 import "./App.css";
 
@@ -9,6 +10,7 @@ class App extends React.Component {
 
   componentDidMount() {
     console.log("Component mounted");
+    axios.get();
   }
 
   render() {
