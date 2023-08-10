@@ -9,14 +9,15 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    console.log("Component mounted");
+    // console.log("Component mounted");
+    this.fetchAdvice();
   }
 
   fetchAdvice = () => {
     axios
       .get("https://api.adviceslip.com/advice")
       .then((response) => {
-        console.log(response);
+        console.log(response.data.slip.advice);
       })
       .catch((error) => {
         console.log(error);
