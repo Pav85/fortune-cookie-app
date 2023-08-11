@@ -64,13 +64,13 @@ button:hover {
     background-position: 20%;
     align-items: end;
     color: whitesmoke;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
 
   .card {
     width: 80%;
     height: 30%;
 
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
 }
