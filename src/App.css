@@ -63,9 +63,13 @@ button:hover {
   .app {
     background-position: 20%;
     align-items: end;
-    color: whitesmoke;
+    /* color: whitesmoke; */
     /* margin-bottom: 50px; */
     align-items: center;
+  }
+
+  .heading {
+    opacity: 0.8;
   }
 
   .card {
