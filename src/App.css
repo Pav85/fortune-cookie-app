@@ -43,3 +43,10 @@ body {
   height: 580px;
   font-family: "Vollkorn", serif;
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 80%;
+    height: 30%;
+  }
+}

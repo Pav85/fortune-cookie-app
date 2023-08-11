@@ -36,6 +36,9 @@ class App extends React.Component {
       <div className="app">
         <div className="card">
           <h1 className="heading">{advice}</h1>
+          <button>
+            <span>Press for advice</span>
+          </button>
         </div>
       </div>
     );
