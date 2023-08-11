@@ -9,7 +9,6 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    // console.log("Component mounted");
     this.fetchAdvice();
   }
 
@@ -18,10 +17,6 @@ class App extends React.Component {
       .get("https://api.adviceslip.com/advice")
       .then((response) => {
         const { advice } = response.data.slip;
-        console.log(
-          "--------------------------------------------------------------------------------------------------------------------"
-        );
-        console.log(advice);
         this.setState({ advice });
       })
       .catch((error) => {
