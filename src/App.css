@@ -61,12 +61,14 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
   .app {
-    background-position: 20%;
+    background-position: 10%;
 
     align-items: end;
     /* color: whitesmoke; */
     /* margin-bottom: 50px; */
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
   }
 
   .heading {
@@ -75,10 +77,11 @@ button:hover {
 
   .card {
     width: 80%;
-    height: 60%;
+    height: 55%;
     background-color: whitesmoke;
     opacity: 0.7;
     /* align-items: center; */
+    /* justify-content: center; */
 
     /* margin-bottom: 60px; */
   }
