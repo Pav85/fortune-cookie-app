@@ -65,11 +65,13 @@ button:hover {
     align-items: end;
     color: whitesmoke;
     /* margin-bottom: 50px; */
+    align-items: center;
   }
 
   .card {
     width: 80%;
     height: 30%;
+    /* align-items: center; */
 
     /* margin-bottom: 60px; */
   }
