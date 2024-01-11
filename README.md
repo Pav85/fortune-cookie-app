@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Good Advice Cat App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The Good Advice Cat App is a simple, intuitive web application that provides users with random pieces of advice at the click of a button. Developed using React and Axios for API requests, this application fetches advice from the "Advice Slip JSON API" to inspire and entertain users.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Instant Advice Retrieval:** Utilizes Axios to fetch random advice from a reliable API.
+- **Simple User Interface:** Features a minimalistic design for ease of use.
+- **One-Click Functionality:** Users can receive new advice with just a single click.
+- **Responsive Design:** Optimized for both desktop and mobile devices, ensuring a seamless experience across all platforms.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Viewing Advice:** Upon loading, the app displays a piece of advice in a stylish card layout.
+2. **Fetching New Advice:** Click the "Give me another advice!" button to load new advice.
+3. **No Refresh Needed:** The app dynamically updates the advice without needing to refresh the page.
 
-### `npm test`
+## Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [Advice Slip JSON API](https://api.adviceslip.com/)
 
-### `npm run build`
+## Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![advice-generator-app](./public/screenshot-cat.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Explore and enjoy different pieces of advice: [Live Build](https://good-advice-cat.netlify.app/)
 
-### `npm run eject`
+The live version provides a hands-on experience of the Advice Generator App, allowing you to explore its functionality effortlessly.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+No installation is required for the live version. For development purposes, clone the repository, install dependencies using `npm install`, and start the local server using `npm start`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Access the source code and contribute to the project: [GitHub - Advice Generator App](https://github.com/Pav85/good-advice-cat-app)
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and available under the MIT License.
